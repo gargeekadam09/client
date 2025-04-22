@@ -4,7 +4,7 @@ const API_URL = 'https://backend-1-3sa0.onrender.com/api';
 // Register new user
 export const registerUser = async (userData) => {
   try {
-    const response = await fetch(`${API_URL}/auth/register`, {
+    const response = await fetch('https://backend-1-3sa0.onrender.com/api/auth/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

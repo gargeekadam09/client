@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://backend-1-3sa0.onrender.com/api/sales'; // Update if needed
+const API_BASE_URL = 'https://backend-1-3sa0.onrender.com/api/sales'; 
 
 // Get sales for the logged-in customer
 export const getCustomerSales = async () => {
