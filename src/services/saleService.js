@@ -1,7 +1,7 @@
 // src/services/saleService.js
 import { authHeader } from './authService';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://backend-1-3sa0.onrender.com/api';
 
 export const getAllSales = async () => {
   try {
