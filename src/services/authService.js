@@ -1,5 +1,5 @@
 // src/services/authService.js
-const API_URL = 'http://backend-1-3sa0.onrender.com/api';
+const API_URL = 'https://backend-1-3sa0.onrender.com/api';
 
 // Register new user
 export const registerUser = async (userData) => {

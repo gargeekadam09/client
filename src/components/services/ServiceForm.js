@@ -18,7 +18,7 @@ const ServiceForm = ({ onServiceAdded }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Replace with your actual API endpoint
-    axios.post('http://backend-1-3sa0.onrender.com/api/services', formData)
+    axios.post('https://backend-1-3sa0.onrender.com/api/services', formData)
       .then((response) => {
         alert('Service added successfully!');
         setFormData({ name: '', description: '', price: '' });
